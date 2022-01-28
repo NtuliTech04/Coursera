@@ -18,20 +18,16 @@
     transition: .3s ease;
 }
 a.nav-link{
+    text-align: center;
     font-weight: normal;
-    color: #fff;
     font-size: 20px;
+    color: #fff;
 }
 a.nav-link:hover{
     color: #000;
     transition: .3s ease;
 }
-button.navbar-toggler{
-    margin-right: 15px;
-    color: #abcdef;
-    border-color: #abcdef;
-    background-color: #72a0c1;
-}
+
 /*---Navigation Bar End---*/
 
 /*---Body Content---*/
@@ -53,12 +49,16 @@ h3{
     padding: 10px;
     margin: 5px;
 }
-
 /*---Body Content End---*/
 
 /*Responsiveness*/
-@media(max-width:991px){
-
+@media(max-width:767px){
+    button.navbar-toggler{
+        margin-right: 15px;
+        color: #abcdef;
+        border-color: #abcdef;
+        background-color: #72a0c1;
+    }
     #navbarSupportedContent{
         background-color: #abcdef;
         margin-bottom: -9px;
